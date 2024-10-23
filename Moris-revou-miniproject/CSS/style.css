@@ -1,0 +1,265 @@
+body {
+    margin: 0%;
+    padding: 0%;
+   background: rgb(108,108,108);
+background: linear-gradient(330deg, rgba(108,108,108,1) 0%, rgba(0,0,0,1) 68%);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* header */
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    padding-bottom: 20px;
+}
+/* navbar */
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    margin: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding-top: 14px;
+}
+
+nav a:hover {
+    color: aqua;
+    transition: 1s;
+}
+
+/* nav logo */
+
+.navlogo {
+    display: flex;
+    float: left;
+    margin: 20px;
+    display: inline-flex;
+}
+
+.navlogo img {
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+}
+
+.navlogo a {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 195, 255);
+    padding-top: 11px;
+    display: inline-block;
+    margin-left: 20px;
+    cursor: not-allowed;
+}
+
+/* Konten Home*/
+
+.home-konten {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.tulisan {
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+
+h1 {
+    color: rgb(0, 38, 255);
+    font-size: 50px;
+}
+
+.tulisan h2 {
+    color: aliceblue;
+}
+
+h2 {
+    color: rgb(0, 68, 255);
+}
+
+.home-konten img {
+    width: 1366px;
+    height: 978px;
+    width: 100%;
+}
+
+.gambar {
+    display: flex;
+    width: 100%;
+    transition: 2s;
+}
+
+.gambar img {
+    width: 100%;
+}
+
+.gambarjadikecil {
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 1350px;
+    height: 678px;
+}
+
+#slide-1:target ~ .gambar {
+    margin-left: 0px;
+}
+#slide-2:target ~ .gambar {
+    margin-left: -100%;
+}
+#slide-3:target ~ .gambar {
+    margin-left: -185%;
+}
+
+.navigasi {
+    margin-top: 20px;
+}
+
+.navigasi a {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(74, 75, 72);
+    font-size: 0px;
+    border-radius: 80%;
+    margin: 3px;
+}
+
+.navigasi a:hover {
+    background-color: rgb(214, 255, 30);
+    transition: 1s;
+}
+
+.navigasi {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -70px;
+}
+
+/* Profile */
+.profile > h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.profile > p {
+    color: white;
+    text-align: center;
+    background: rgb(108,108,108);
+    background: linear-gradient(330deg, rgba(108,108,108,1) 0%, rgba(0,0,0,1) 68%);;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding: 50px;
+    border-radius: 20px;
+    border: solid white;
+    font-size: 24px;
+}
+
+.profile h3 {
+    text-align: center;
+    font-size: 35px;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.portofolio h2 {
+    font-size: 50px;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* message */
+.message {
+    padding-bottom: 70px;
+    padding-top: 20px;
+}
+
+form {
+    padding-left: 50px;
+    margin: 20px;
+}
+
+.message h2 {
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.pesan-form {
+  padding-left: 50px;
+  display:inline-block;
+  border: solid white;
+  border-radius: 20px;
+  left: 20%;  
+}
+
+label {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.form-input {
+    margin:6px
+}
+
+.form-input input {
+    width: 250px;
+    padding: 10px;
+    height: 20px;
+    margin: 20px;
+    font-size: larger;
+}
+
+.form-pesanarea {
+    margin:6px
+}
+
+.form-pesanarea input {
+    width: 250px;
+    padding: 10px;
+    padding-bottom: 80px;
+    height: 20px;
+    margin: 20px;
+    font-size: larger;
+}
+
+input[type="submit"] {
+    width: 425px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    display: inline-block;
+    padding-right: 72px;
+    margin-left: 20px;
+}
+
+input[type="radio"] {
+    width: 20px;
+    margin: 11px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 24px;
+}
+
+
